@@ -124,7 +124,7 @@ void cart_freews(int xsize, int ysize)
 /* Function to calculate the discrete cosine transform of the input data.
  * assumes its input is an fftw_malloced array in column-major form with
  * size xsize*ysize */
-
+         
 void cart_forward(double *rho, int xsize, int ysize)
 {
   fftw_plan plan;
